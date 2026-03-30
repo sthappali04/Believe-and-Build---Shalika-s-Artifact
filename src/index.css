@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+}
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: #ffffff;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.text-stroke-3 {
+  -webkit-text-stroke: 3px black;
+  paint-order: stroke fill;
+}
+
+.text-stroke-2 {
+  -webkit-text-stroke: 2px black;
+  paint-order: stroke fill;
+}
+
+.text-stroke-1 {
+  -webkit-text-stroke: 1px black;
+  paint-order: stroke fill;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
